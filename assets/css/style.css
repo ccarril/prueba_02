@@ -1,0 +1,16 @@
+.container-estilo {
+	background-color: #ededed;
+	border-color: black;
+}
+
+.jumbotron-estilo {
+	text-align: center;
+}
+
+.btn-dark {
+	margin-top:10px;
+}
+
+#image{
+  max-width: 200px;
+}
