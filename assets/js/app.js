@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+
+
 console.clear(); // Esto limpia la consola
 
 $('#uploader').submit(function(evt){
@@ -17,3 +21,8 @@ $('#uploader').submit(function(evt){
   };
   
 }); 
+
+$('#nuevo-tweet').on('click', '.form-group', function(){
+  $("body").append(
+
+});

@@ -14,3 +14,20 @@
 #image{
   max-width: 200px;
 }
+
+.tweets {
+  margin: 50px;
+  padding: 0;
+}
+
+.tweet {
+  border-radius: 5px;
+  margin-bottom: 100px;
+  background-color: #ededed;
+}
+
+.tweet__content {
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  min-height: 76px;
+  position: relative;

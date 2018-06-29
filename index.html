@@ -22,19 +22,21 @@
 <!-- Jumbotron -->
 
 
-
 <!-- Columnas -->
 <div class="container">
  <div class="row">
   <div class="col-md-6">
  	 <form>
+      <div id= nuevo-tweet>
   	  <div class="form-group">
-       <label for="exampleFormControlTextarea1">Escribe un tweet</label>
-       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+       <label for="mytext">Escribe un tweet</label>
+       <textarea class="form-control" id="mytext" rows="3"></textarea>
        <button type="button" class="btn btn-dark">Enviar</button>
+       </div>
 
   <div>
   <!--Aqui va a aparecer la imagen-->
+  <i class="fas fa-user"></i>
   <img id="image" src="" alt="">
   </div>
 
@@ -49,6 +51,13 @@
 
   <div class="col-md-6">
   	<p>Columna derecha</p>
+    <ul class="tweets">
+      <li class="tweet">
+        <div class="tweet__content">
+
+        </div>
+      </li>
+    </ul>
   </div>
  </div>
 </div>
